@@ -12,7 +12,13 @@ def pet_name():
     pet_name = variables.petName
     return pet_name
 
-# TC0: Solution to the Test given. This test scenario
+# TC0:
+# Solution to the Test given. This test scenario intend to do the followings:
+# Create and return a new Pet
+# Verify The Pet was created with correct data
+# Update this Pet_name, Verify update and return record
+# Delete the pet and demonstrate pet now deleted
+
 def test_CRUD_Pet(pet_id, pet_name):
     # Create and return a new Pet
     pet = petstore_requests.create_pet(pet_id, pet_name)

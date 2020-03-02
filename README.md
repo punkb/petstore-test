@@ -13,11 +13,11 @@ python modules : `requests`, `pytest`, `json`, `jsonpath`, `unittest`
 4. run `pytest` command
 5. it will run all the tests in petstore projects. 
 
-Project Structure:
-`petstore_requests.py` : Contains all the methods to access Pet store Rest API
-`test_unnittest_petstore`: Contains all the unit test of defined methods
-`test_acceptance-test-suite_petstore`: Contains all the acceptance test
-
+# Project Structure
+1. **petstore_requests.py** : Contains all the methods to access Pet store Rest API
+2. **test_unnittest_petstore**: Contains all the unit test of defined methods
+3. **test_acceptance-test-suite_petstore`**: Contains all the acceptance test
+4. **variables.py** : Contains all the constants and input data for the tests. You can modify as you need.
 
 # Commands to run
 To run all the tests use command `pytest`

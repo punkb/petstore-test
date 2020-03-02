@@ -15,14 +15,13 @@ python modules : `requests`, `pytest`, `json`, `jsonpath`, `unittest`
 
 # Project Structure
 1. **petstore_requests.py** : Contains all the methods to access Pet store Rest API
-2. **test_unnittest_petstore**: Contains all the unit test of defined methods
+2. **test_unnittest_petstore**: Contains all the unit tests
 3. **test_acceptance-test-suite_petstore`**: Contains all the acceptance test
-4. **variables.py** : Contains all the constants and input data for the tests. You can modify as you need.
+4. **variables.py** : Contains all the constants and input data for the tests. You can modify as you wish.
 
 # Commands to run
-To run all the tests use command `pytest`
-To run the scenario from the given Test. Please run the command : `pytest -k CRUD
-` 
+To run all the tests use command `pytest`.
+To run the scenario from the given Test. Please run the command : `pytest -k CRUD`. 
 To run any specific test from use the name of the test in command : `pytest -k <name of the test>`
-e.g `pytest -k update`
+e.g `pytest -k update`.
 

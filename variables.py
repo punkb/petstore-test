@@ -6,9 +6,6 @@ def generatePetID():
     return generatedpetID
 
 
-petID = random.randint(1, 100)
-
-
 HOST_URL = "https://petstore.swagger.io/v2/pet/"
 
 requestHeaders = {
@@ -17,13 +14,13 @@ requestHeaders = {
     }
 
 
-petName = "mario"
+petName = "Mario"
 
 
 body = {
-        "id": petID,
+        "id": generatePetID(),
         "category": {
-            "id": petID+1,
+            "id": generatePetID()+1,
             "name": "string"
         },
         "name": petName,
@@ -32,7 +29,7 @@ body = {
         ],
         "tags": [
             {
-                "id": petID+2,
+                "id": generatePetID()+2,
                 "name": "MAM"
             }
         ],
